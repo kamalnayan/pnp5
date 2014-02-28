@@ -29,18 +29,15 @@ body {
   text-decoration:none;
   margin-top: 2em;
   padding-top:1em;
-  padding-bottom:1em;
+  padding-bottom:2em;
   text-align:center;
   font-size:20px;
   border:2px solid #E0E0E0;
   width:88%;
-  height:100px;
- 
 }
 #txtName
 {
 width:90%;
-height:2em;
 margin-top:1.5em;
 color:#0000FF;
 padding-left:0.5em;
