@@ -33,7 +33,7 @@
          <div id="scan">
 		Scan
 		 </div>
-		 <div id="data">Result</br><div id="result1"></div></div>
+		 <div id="data">Result</br><input type="text" id="txtName"/></div>
 	 </center>
          <p>
            <a href="#" class="topcoat-button" id="encode"></a>
@@ -53,33 +53,5 @@
         <script type="text/javascript">
             app.initialize();
         </script>
-       
-        <script>
-    function doalert() {
-        var url = "productdetails.html";
-        var code=document.getElementById("txtName").value;
-        if(code==""||code=="Enter smart code..")
-        {
-        alert("enter the smart code.");
-        }
-        else{
-            window.location.href = url;
-            }
-    }
-</script>
-<!--<input type="hidden" id="ddlTechnolgy"/>
-<script type="text/javascript">
-    $(function () {
-        $("#btnQueryString").bind("click", function () {
-        var code=document.getElementById("txtName").value;
-        if(code==""||code=="enter the smart code")
-        {
-        alert("Enter the smart code.");
-        }
-            var url = "productdetails.html?name=" + encodeURIComponent($("#txtName").val()) + "&technology=" + encodeURIComponent($("#ddlTechnolgy").val());
-            window.location.href = url;
-        });
-    });
-</script>-->
     </body>
 </html>
