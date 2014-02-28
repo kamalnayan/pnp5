@@ -14,12 +14,27 @@ body {
   color:#505050  ;
   text-decoration:none;
   margin-top: 8em;
-  padding-top: 0.4em;
-  padding-bottom: 0.4em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
   text-align:center;
   font-size:20px;
-  border:1px solid #E0E0E0;
-  width:91%;
+  border:2px solid #E0E0E0;
+  width:88%;
+ 
+}
+#data {
+ 
+  background-color: #ffffff;
+  color:#505050  ;
+  text-decoration:none;
+  margin-top: 2em;
+  padding-top:1em;
+  padding-bottom:1em;
+  text-align:center;
+  font-size:20px;
+  border:2px solid #E0E0E0;
+  width:88%;
+  height:46px;
  
 }
 .app
