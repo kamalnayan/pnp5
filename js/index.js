@@ -64,7 +64,7 @@ var app = {
                 "text: " + result.text + "\n" +
                 "format: " + result.format + "\n" +
                 "cancelled: " + result.cancelled + "\n");
-            document.getElementById("txtName").value = result.text;
+            document.getElementById("result1").innerHTML = result.text;
             if(result.text!="")
             {
             location.href="productdetails.html";
