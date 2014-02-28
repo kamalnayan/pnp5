@@ -64,10 +64,13 @@ var app = {
                 "text: " + result.text + "\n" +
                 "format: " + result.format + "\n" +
                 "cancelled: " + result.cancelled + "\n");
-            document.getElementById("result1").innerHTML = result.text;
+            document.getElementById("result1").value= result.text;
             if(result.text!="")
             {
-            location.href="productdetails.html";
+            alert("Scanner result: \n" +
+                "text: " + result.text + "\n" +
+                "format: " + result.format + "\n" +
+                "cancelled: " + result.cancelled + "\n");
             }
             console.log(result);
             
