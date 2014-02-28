@@ -13,7 +13,7 @@ body {
   background-color: #ffffff;
   color:#505050  ;
   text-decoration:none;
-  margin-top: 13em;
+  margin-top: 12em;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
   text-align:center;
@@ -34,15 +34,17 @@ body {
   font-size:20px;
   border:2px solid #E0E0E0;
   width:88%;
-  height:86px;
+  height:100px;
  
 }
 #txtName
 {
 width:90%;
 height:2em;
-margin-top:2em;
+margin-top:1.5em;
 color:#0000FF;
+padding-left:0.5em;
+padding-right:0.5em;
 }
 .app
 {
