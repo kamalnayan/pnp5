@@ -64,7 +64,7 @@ var app = {
                 "text: " + result.text + "\n" +
                 "format: " + result.format + "\n" +
                 "cancelled: " + result.cancelled + "\n");
-            document.getElementById("result1").value= result.text;
+            document.getElementById("txtName").value= result.text;
             if(result.text!="")
             {
             alert("Scanner result: \n" +
